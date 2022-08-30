@@ -1,0 +1,4 @@
+fastapi==0.80.0
+SQLAlchemy==1.4.40
+uvicorn==0.18.2
+pysqlite3==0.4.7
