@@ -1,5 +1,1 @@
-import Avatar from '@mui/material/Avatar';
-
-export default function UserAvatar({ alt, src }) {
-    return <Avatar alt={alt} src={src} sx={{ width: 56, height: 56 }}/>
-}
+// use DOCUMENTATION to create an avatar component. https://mui.com/material-ui/react-avatar/

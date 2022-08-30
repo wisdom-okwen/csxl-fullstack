@@ -1,3 +1,5 @@
+// Part of the Storybook installation. Control's Storybook's server's behavior.
+
 module.exports = {
   stories: ['../src/components/**/*.stories.js'],
   addons: [

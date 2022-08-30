@@ -1,40 +1,31 @@
-import './App.css';
-import Link from "./components/Link";
-import UserAvatar from './components/UserAvatar';
 import React, { useState, useEffect } from 'react';
+import styled from 'styled-components';
+// TODO: import components
 
 const NAME = "Claire";
 
+// Base page formatting... feel free to edit!
+const StyledApp = styled.div`
+  background: linear-gradient(135deg, #e66465, #9198e5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  gap: 16px;
+`
+
 function App() {
-  const [links, setLinks] = useState([]);
+  // TODO: fetch links from API and store them to display on our page!
 
-  function fetchLinks() {
-    let response = fetch('http://localhost:8000/api/links')
-      .then(result => result.json())
-      .then(data => {
-        setLinks(data);
-      })
-    
-    // setLinks(response);
-    
-  }
-
-  useEffect(() => {
-    fetchLinks();
-  }, []);
-  
+  // TODO: finish returning
   return (
-    <div className="App">
-      <header id="stack" className="App-header">
-        {NAME}'s LinkTree
-        <UserAvatar alt={`Avatar for ${NAME}`} src='https://s.abcnews.com/images/Technology/jupiter-webb-telescope-01-ht-iwb-220822_1661177358675_hpMain_1x1_992.jpg' />
-      </header>
-      <div id="stack">
-        {links.map(i => (
-          <Link link={i.url} title={i.display_name} />
-        ))}
-      </div>
-    </div>
+    <StyledApp>
+      <p>Hello, dev! We are going to create a webpage here later.</p>
+    </StyledApp>
   );
 }
 
