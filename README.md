@@ -2,8 +2,6 @@
 
 ## Back-end
 
-#### The basics
-
 #### Howdy, hope you are doing having a wonderful day! Let's get started with this set up. 
 
 #### The basics
