@@ -23,7 +23,7 @@ N.B. If you have Python 3 installed you might have to use python3 as opposed to 
 
 ## Front-end
 
-##### Hello! Thanks for signing up for our workshop – I'm so excited! For now, let's walk through setting up your workspace.
+#### Hello! Thanks for signing up for our workshop – I'm so excited! For now, let's walk through setting up your workspace.
 
 #### The basics
 1. If you've made it here, you've possibly already cloned this repository! If you haven't, do that now, and open it in your fav text editor (I'm using vscode)
