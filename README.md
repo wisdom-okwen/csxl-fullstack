@@ -17,7 +17,7 @@ N.B. If you have Python 3 installed you might have to use python3 as opposed to 
 5. In the `csxl-fullstack/backend` directory, run `python -m pip install -r requirements.txt`.
 6. Then, run `python -m uvicorn main:app --reload`. 
 
-#### Sanity Check
+#### Sanity check!
 
 7. If everything is working properly, if you go to [this url](http://localhost:8000/api/health), you should see a "Hello World" message!
 
@@ -46,3 +46,9 @@ N.B. If you have Python 3 installed you might have to use python3 as opposed to 
 
 #### You're done!
 Nice work! I'm excited to meet and work with y'all – feel free to peruse the workspace if you'd like, but we will go through everything together on Thursday! Cheers!
+
+## Stay calm! 
+
+Don't worry if you got some errors, please stop by the XL (SN027) and we'll be more than happy to help you out. 
+
+Alternatively, you email me at yanaga@ad.unc.edu!
