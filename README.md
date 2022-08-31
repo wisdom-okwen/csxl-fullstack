@@ -2,13 +2,34 @@
 
 ## Back-end
 
+#### The basics
+
+#### Howdy, hope you are doing having a wonderful day! Let's get started with this set up. 
+
+#### The basics
+1. Clone this repo by running `git@github.com:clairehhelms/csxl-fullstack.git`. You can also clone it through https! 
+2. Then, run `cd csxl-fullstack/backend`
+3. When you are in the backend directory, you are ready to install some essentials things! 
+
+#### Housekeeping
+
+N.B. If you have Python 3 installed you might have to use python3 as opposed to python.
+
+4. Please follow the instructions in [this link](https://21s.comp110.com/resources/setup/software.html) to install python and the necessary tools for this workshop. You can safely ignore the Zoom instructions.
+5. In the `csxl-fullstack/backend` directory, run `python -m pip install -r requirements.txt`.
+6. Then, run `python -m uvicorn main:app --reload`. 
+
+#### Sanity Check
+
+7. If everything is working properly, if you go to [this url](http://localhost:8000/api/health), you should see a "Hello World" message!
+
 ## Front-end
 
 ##### Hello! Thanks for signing up for our workshop – I'm so excited! For now, let's walk through setting up your workspace.
 
 #### The basics
 1. If you've made it here, you've possibly already cloned this repository! If you haven't, do that now, and open it in your fav text editor (I'm using vscode)
-2. You will need Node.js and NPM installed on your system to run anything. First, check if you have both already by opening a terminal and running `node -v` and `npm --v`.
+2. You will need Node.js and NPM installed on your system to run anything. First, check if you have both already by opening a terminal and running `node --v` and `npm --v`.
     1. If both of these produce numbers (>=14.0.0 for Node and >=5.6 for npm), you're all set!
     2. If not, [download them here](https://nodejs.org/en/download/). After download, return to step 2 to make sure it worked!
 
