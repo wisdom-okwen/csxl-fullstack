@@ -52,3 +52,5 @@ Nice work! I'm excited to meet and work with y'all – feel free to peruse the w
 Don't worry if you got some errors, please stop by the XL (SN027) and we'll be more than happy to help you out. 
 
 Alternatively, you can email me at yanaga@ad.unc.edu!
+
+If you have read this far, please stop by the XL(SN027) and check-in with us(Claire or Felipe) - if we are not there, please let the Staff member or Ambassador know. Be sure to give them your name!
