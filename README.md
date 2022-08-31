@@ -6,7 +6,7 @@
 
 ##### Hello! So excited to meet y'all and go learn together! For now, let's walk through setting up your workspace.
 
-#### The foundation
+#### The basics
 1. If you've made it here, you've likely already cloned this repository! If you haven't, do that now, and open it in your fav text editor (I'm using vscode!)
 2. You will need Node.js and NPM installed on your system to run anything. First, check if you have both already by opening a terminal and running `node --v` and `npm --v`.
     1. If both of these produce numbers (>=14.0.0 for Node and >=5.6 for npm), you're all set!
