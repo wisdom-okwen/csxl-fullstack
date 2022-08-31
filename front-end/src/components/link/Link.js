@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// beginning styles for our "links"... feel free to edit!
+// beginning styles for building out our "links"... feel free to edit!
 // good website for finding (and checking accessibility!) of colors: https://coolors.co/contrast-checker/112a46-acc8e5
 const StyledButton = styled.button`
     align-items: center;

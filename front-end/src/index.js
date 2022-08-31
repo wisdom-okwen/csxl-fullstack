@@ -1,4 +1,4 @@
-// Throws and renders the App defined in App.js
+// Imports and renders the App defined in App.js
 
 import React from 'react';
 import ReactDOM from 'react-dom';

@@ -1,1 +1,1 @@
-// use DOCUMENTATION to create an avatar component. https://mui.com/material-ui/react-avatar/
+// TODO: use DOCUMENTATION to create an avatar component. https://mui.com/material-ui/react-avatar/

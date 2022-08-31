@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 // TODO: import components
 
-const NAME = "Claire";
+const NAME = "";
 
 // Base page formatting... feel free to edit!
 const StyledApp = styled.div`

@@ -26,6 +26,7 @@ const Template = args => {
     );
 }
 
+// I've pre-defined arguments for our Default story – feel free to edit!
 export const Default = Template.bind({});
 Default.args = {
     link: 'https://www.google.com',
