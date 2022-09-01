@@ -5,7 +5,7 @@
 #### Howdy, hope you are doing having a wonderful day! Let's get started with this set up. 
 
 #### The basics
-1. Clone this repo by running `git clone git@github.com:clairehhelms/csxl-fullstack.git`. You can also clone it through https! 
+1. Clone this repo by running `git clone https://github.com/clairehhelms/csxl-fullstack.git`. You can also clone it through https! 
 2. Then, run `cd csxl-fullstack/backend`
 3. When you are in the backend directory, you are ready to install some essentials things! 
 
