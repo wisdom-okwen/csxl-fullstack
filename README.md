@@ -5,21 +5,25 @@
 #### Howdy, hope you are doing having a wonderful day! Let's get started with this set up. 
 
 #### The basics
-1. Clone this repo by running `git clone https://github.com/clairehhelms/csxl-fullstack.git`. You can also clone it through https! 
-2. Then, run `cd csxl-fullstack/backend`
-3. When you are in the backend directory, you are ready to install some essentials things! 
+1. Fork this repo by clicking the fork button on the top right corner.
+2. After that, clone your forked repo into your machine. By doing this:
+    - Click on the green code button on your repository page. 
+    - Select HTTPS or SSH, and copy the link displayed to you. 
+    - Then, run `git clone your@link` in your terminal window!
+3. All of this being done, run `cd csxl-fullstack/backend`
+4. When you are in the backend directory, you are ready to install some essentials things! 
 
 #### Housekeeping
 
 N.B. If you have Python 3 installed you might have to use python3 as opposed to python.
 
-4. Please follow the instructions in [this link](https://21s.comp110.com/resources/setup/software.html) to install python and the necessary tools for this workshop. You can safely ignore the Zoom instructions.
-5. In the `csxl-fullstack/backend` directory, run `python -m pip install -r requirements.txt`.
-6. Then, run `python -m uvicorn main:app --reload`. 
+5. Please follow the instructions in [this link](https://21s.comp110.com/resources/setup/software.html) to install python and the necessary tools for this workshop. You can safely ignore the Zoom instructions.
+6. In the `csxl-fullstack/backend` directory, run `python -m pip install -r requirements.txt`.
+7. Then, run `python -m uvicorn main:app --reload`. 
 
 #### Sanity check!
 
-7. If everything is working properly, if you go to [this url](http://localhost:8000/api/health), you should see a "Hello World" message!
+8. If everything is working properly, if you go to [this url](http://localhost:8000/api/health), you should see a "Hello World" message!
 
 ## Front-end
 
