@@ -57,6 +57,8 @@ Don't worry if you got some errors, please stop by the XL (SN027) and we'll be m
 
 Alternatively, you can email Felipe at yanaga@ad.unc.edu (back-end) and/or Claire at clairehh@live.unc.edu (front-end)!
 
+## Finally
+
 If you have read this far, please email both of us with your name, year, pronouns, and any web dev experience (none is expected! we just want to gague where y'all's understanding is). Optionally, you can also send us a joke.
 
 See you soon!
