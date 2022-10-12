@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from './Link';
 import styled from 'styled-components';
+import UserAvatar from '../UserAvatar';
 
 // Helps with alignment
 const Stack = styled.div`
@@ -21,7 +22,9 @@ export default {
 const Template = args => {
     return (
         <Stack>
-            <p>Hello, welcome to Storybook! We are going to replace this with a component later. </p>
+            <Link url="https://raybans.com" display_name="RAYBANZ.COM"></Link>
+            <Link {...args} />
+            <UserAvatar alt="Wisdom's profile photo" src="https://yafghana.org/wp-content/uploads/2022/06/WISDOM-OKWEN.jpg" />
         </Stack>
     );
 }
@@ -29,6 +32,6 @@ const Template = args => {
 // I've pre-defined arguments for our Default story – feel free to edit!
 export const Default = Template.bind({});
 Default.args = {
-    link: 'https://www.google.com',
-    title: "GO TO GOOGLE"
+    url: 'https://www.google.com',
+    display_name: "OPEN GOOGLE"
 }

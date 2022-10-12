@@ -1,12 +1,14 @@
+import { useSlotProps } from '@mui/base';
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-// TODO: import components
+import Link from './components/link/Link';
+import UserAvatar from './components/UserAvatar';
 
 const NAME = "";
 
 // Base page formatting... feel free to edit!
 const StyledApp = styled.div`
-  background: linear-gradient(135deg, #e66465, #9198e5);
+  background: linear-gradient(teal, green, yellow);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +19,11 @@ const StyledApp = styled.div`
   font-family: 'Poppins', sans-serif;
   gap: 16px;
 `
+const StyledH2 = styled.h2`
+  margin: none;
+  color: teal;
+`
+const links = [{url: "https://youtube.com/", display_name: "YouTube"}, {url: "https://yafghana.org/", display_name: "YAF Ghana"}]
 
 function App() {
   // TODO: fetch links from API and store them to display on our page!
@@ -24,7 +31,14 @@ function App() {
   // TODO: finish returning
   return (
     <StyledApp>
-      <p>Hello, dev! We are going to create a webpage here later.</p>
+      <StyledH2>
+        <h2>My First React Program</h2>
+      </StyledH2>
+      <UserAvatar alt="My Profile Picture" src="https://yafghana.org/wp-content/uploads/2022/06/WISDOM-OKWEN.jpg"/>
+      {links.map(entry => (
+        <Link url={entry.url} display_name={entry.display_name} />
+      ))}
+
     </StyledApp>
   );
 }
