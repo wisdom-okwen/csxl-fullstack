@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Link from './components/link/Link';
 import UserAvatar from './components/UserAvatar';
+import HomeIcon from './components/HomeIcon';
 
 const NAME = "";
 
@@ -21,12 +22,24 @@ const StyledApp = styled.div`
 `
 const StyledH2 = styled.h2`
   margin: none;
-  color: teal;
+  color: white;
 `
-const links = [{url: "https://youtube.com/", display_name: "YouTube"}, {url: "https://yafghana.org/", display_name: "YAF Ghana"}]
+// const links = [{url: "https://youtube.com/", display_name: "YouTube"}, {url: "https://yafghana.org/", display_name: "YAF Ghana"}]
 
 function App() {
   // TODO: fetch links from API and store them to display on our page!
+  const [links, setLinks] = useState([])
+
+function fetchLinks(){
+  fetch("http://localhost:8000/api/links")
+  .then(response => response.json())
+  .then(result => {
+    setLinks(result)
+  })
+}
+
+useEffect(() => fetchLinks(), [])
+
 
   // TODO: finish returning
   return (

@@ -7,10 +7,10 @@ const StyledButton = styled.button`
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: rgba(183, 231, 250, 0.8);
+    background-color: rgba(183, 255, 0, 0.8);
     width: 300px;
     border-radius: 24px;
-    border-color: slateblue;
+    border-color: grey;
     padding: 6px;
     gap: 16px;
     font-family: 'Poppins', sans-serif;
